@@ -1,0 +1,285 @@
+# {
+    margin: 0;
+    padding: 0;
+}
+
+
+image.pngbody {
+    font-family: 'Roboto', sans-serif;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.info_text {
+font-size: 26px;
+line-height: 38px;
+text-align: center;
+color: #5f4d5d;
+max-width: 747px;
+margin: 130px auto 50px;
+}
+
+.info_cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.card {
+    background: #ceb3cb;
+}
+
+.card_content {
+    padding: 25px;
+}
+
+.card_title {
+    font-size: 25px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.card_link {
+    font-size: 17px;
+    line-height: 30px;
+    color: #FFFFFF;
+}
+
+.card:hover {
+    box-shadow: 5px 5px 0px 0px #b08ead, 10px 10px 0px  0px #bda0ba, 15px 15px 0px 0px #cbb1c8, 20px 20px 0px 0px #dd6cda, 25px 25px 0px 0px #f1dfef, 5px 5px 15px 5px rgba(0,0,0,0);
+    transition: 1s;
+    cursor: pointer;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header{
+    margin: 13px auto 15px;
+}
+
+.heander_ul {
+    display: flex;
+    gap: 62px;
+}
+
+.header_link {
+font-size: 14px;
+line-height: 14px;
+color: #1C1C1C;
+text-decoration: none;
+}
+
+.button {
+height: 40px;
+width: 157px;
+border-radius: 20px;
+background: #6F2CFF ;
+border: none;
+font-size: 14px;
+line-height: 14px;
+color: #FFFFFF;
+}
+
+.button:hover{
+    background: orangered;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.main {
+    background: rgba(246, 190, 217, 1);
+    padding: 58px 0 59px;
+}
+
+.main_title {
+font-weight: 700;
+font-size: 54px;
+line-height: 61px;
+max-width: 470px;
+}
+
+.main_title-violate{
+   color: #6F2DFF; 
+}
+
+.main_text{
+font-size: 18px;
+line-height: 30px;
+max-width: 438px;
+margin: 18px 0;
+}
+
+.main_text-bold{
+ font-weight: bold;
+}
+
+.main_input{
+height: 45px;
+width: 268px;
+border: 1px solid;
+color: rgba(111, 44, 255, 1);
+border-radius: 28px;
+padding-left: 26px;
+}
+
+.main_input::placeholder{
+font-size: 15px;
+line-height: 21px;
+color: rgba(0, 0, 0, 0.27);
+
+}
+
+.main_input:focus{
+outline: none;
+}
+
+.main_button{
+height: 45px;
+width: 187px;
+margin-left: 9px;
+
+}
+
+.grow{
+    margin: 136px auto;
+}
+
+.grow_title{
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+color: #1C1C1C;
+max-width: 415px;
+}
+
+.grow_flex {
+  display: flex;
+  gap: 34px;
+}
+
+.grow_element {
+max-width: 333px;
+text-align: center;
+}
+
+.grow_item {
+padding: 35px 0 85px;
+box-shadow: 0px 2px 4px rgba(192, 192, 192, 0.5);
+border-radius: 0px 0px 7px 7px
+}
+
+.grow_pretitle {
+font-size: 26px;
+line-height: 22px;
+margin-bottom: 28px;
+}
+
+.grow_text {
+font-size: 18px;
+line-height: 22px;
+color: #6F2CFF;
+max-width: 219px;
+margin: 0 auto;
+}
+
+.commerce {
+margin-bottom: 136px;
+text-align: center;
+}
+
+.commerce_title {
+font-weight: 700;
+font-size: 40px;
+line-height: 45px;
+margin-bottom: 79px;
+}
+
+.commerce_pretitle {
+    font-weight: 700;
+    font-size: 19px;
+    line-height: 23px;
+    margin: 42px 0 16px;
+}
+
+.commerce_text {
+font-size: 15px;
+line-height: 22px;
+max-width: 316px;
+}
+
+.footer{
+background: rgba(32, 0, 60, 1);
+padding: 58px 0;
+}
+
+.footer_ul {
+display: flex;
+gap: 74px;
+}
+
+.footer_link {
+    font-weight: 700;
+    line-height: 21px;
+    color: #FFFFFF;
+    text-decoration: none;
+
+}
+
+@media screen and (max-width: 550px) {
+    .flex, .grow_flex {
+        flex-direction: column;
+    }
+
+    .container {
+        max-width: 500px;
+    }
+
+    .header{
+        gap: 30px;
+    }
+
+    .header_nav {
+        display: none;
+    }
+
+    .main {
+        text-align: center ;
+    }
+
+    .main_title {
+        font-size: 48px;
+        line-height: 55px;
+    }
+
+    .main_text {
+        margin: 18px auto;
+    }
+
+    .main_img {
+        margin-top: 40px;
+    }
+
+    .grow {
+        gap: 30px;
+        margin: 60px auto;
+    }
+
+    .grow_title{
+     text-align: center;
+    }
+
+    .commerce_title {
+        margin-bottom: 40px;
+    }
+
+    .footer nav {
+       display: none;
+    }
+}
+ /*box-shadow: 5px 5px 0px 0px #b08ead, 10px 10px 0px  0px #bda0ba, 15px 15px 0px 0px #cbb1c8, 20px 20px 0px 0px #dd6cda, 25px 25px 0px 0px #f1dfef, 5px 5px 15px 5px rgba(0,0,0,0);
